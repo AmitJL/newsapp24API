@@ -10,7 +10,7 @@
 
 <body>
   <nav>
-    <div class="main-nav container flex">
+    <div class="main-nav container flex" >
       <a href="#" class="company-logo">
         <img src="/img/news-icon-24.png" class="company-logo" alt="logo">
       </a> 
@@ -31,23 +31,24 @@
       
     </div>
   </nav>
-<main>
-  <div class="card-container container flex">
-    <div class="card">
-      <div class="card-header">
-        <img src="https://images.unsplash.com/photo-1589816502524-b65852353095?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8NDAwKjIwMHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60" id="news-img"> 
-      </div>
-      <div class="card-content">
-        <h3 id="news-title">This is a title</h3>
-        <h6 class="news-source" id="news-source">End Gadget</h6>
-        <p class="news-disc" id="news-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut doloribus odit, culpa, inventore dolorum exercitationem ullam minus optio assumenda fuga consequuntur eum nostrum repudiandae dolorem. Ea quos itaque dolorum deleniti.</p>
-      </div>
-   </div>
-  </div>  
+  <main>
+        <div class="cards-container container flex" id="cards-container">
+            
+        </div>
+    </main>
 
- 
-  
-</main>
+    <template id="template-news-card">
+        <div class="card">
+            <div class="card-header">
+                <img src="https://via.placeholder.com/400x200" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">This is the Title</h3>
+                <h6 class="news-source" id="news-source">End Gadget 26/08/2023</h6>
+                <p class="news-desc" id="news-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae saepe quis voluptatum quisquam vitae doloremque facilis molestias quae ratione cumque!</p>
+            </div>
+        </div>
+    </template>
 
   
   <script src="script.js"></script>
